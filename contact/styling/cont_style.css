@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    align-items: center;
+    background-color: #2e1a3c;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;  /* Stack the header items vertically */
+}
+
+header h1 {
+    font-size: 4em;
+    font-family: 'Mali';
+    color: white;
+}
